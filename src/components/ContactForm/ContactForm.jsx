@@ -10,7 +10,7 @@ const contactSchema = Yup.object().shape({
     .min(3, 'Too short! Min 3 symbols')
     .max(50, 'Too long! Max 50 symbols')
     .required('Required'),
-  number: Yup.string()
+  phone: Yup.string()
     .min(3, 'Too short! Min 3 symbols')
     .max(50, 'Too long! Max 50 symbols')
     .required('Required'),
